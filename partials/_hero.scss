@@ -94,7 +94,8 @@
         gap: 3rem;
         margin-top: 3rem;
         @media(max-width:768px){
-            display: block;
+            display: flex;
+            flex-wrap: wrap;
             padding: 2rem;
             margin-top: 1rem;
         }
@@ -103,9 +104,14 @@
             font-weight: bold;
         }
         .image{
+            display: flex;
+            justify-content: center;
             background-color:white;
             padding: 1rem;
-            border-radius: 52% 48% 70% 30% / 64% 74% 26% 36% ;
+            width: 100px;
+            height: 100px;
+            border-radius: 68% 32% 54% 46% / 47% 57% 43% 53% ;
+            box-shadow: rgba(38, 57, 77, 0.54) 0px 20px 30px -10px;
             @media(max-width:768px){
                 display: flex;
                 justify-content: center;
@@ -114,7 +120,7 @@
             .imy{
                 width: 80px;
                 @media(max-width:768px){
-                    width: 30%;
+                    width: 80%;
                 }
             }
         }
