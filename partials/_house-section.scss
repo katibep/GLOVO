@@ -1,0 +1,57 @@
+.house-section{
+    .house{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        @media(max-width:768px){
+            margin-top: 1rem;
+        }
+    }
+    p{
+        text-align: center;
+        font-size: 2.50rem;
+        margin-top: 2rem;
+        font-weight: bold;
+        @media(max-width:768px){
+            font-size: 1.20rem;
+        }
+    }
+    .ancks{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        @media(max-width:768px){
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            padding: .50rem;
+            border-radius: 20px;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            background-color: $pink;
+            @media(max-width:768px){
+
+            }
+        }
+    }
+    .texts{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        a{
+            text-decoration: none;
+            color: black;
+            padding: .50rem;
+            border-radius: 20px;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            background-color: $pink;
+        }
+    }
+}

@@ -1,0 +1,370 @@
+.all-stores-liked{
+    margin-left: 13rem;
+    @media(max-width:768px){
+        margin-left: 2.30rem;
+    }
+    .stores{
+        display: flex;
+        align-items: center;
+        font-size: 1.70rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+        @media(max-width:768px){
+          display: flex;
+          justify-content: flex-start;
+          margin-bottom: 1.20rem;
+          font-size: 1.50rem;
+        }
+        .image{
+            width: 25px;
+        }
+    }
+    .stores-liked{
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 2rem;
+        @media(max-width:768px){
+            display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        }
+    .might{
+        .chicken{
+            background-image: url(./images/bc\ 1.jpeg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            border-radius: 10px;
+            width: 17vw;
+            @media(max-width:768px){
+                width: 80vw;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 5rem;
+                padding: .50rem;
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.486) ;
+            }
+        }
+        .kfc{
+            text-decoration: none;
+            color: black;
+            p{
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+            .imar{
+                display: flex;
+                align-items: center;
+                font-size: 1.10rem;
+                .image2{
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .might2{
+        .chicken{
+            background-image: url(./images/bc\ 2.jpeg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            border-radius: 10px;
+            width: 17vw;
+            @media(max-width:768px){
+                width: 80vw;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 5rem;
+                padding: .50rem;
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.486) ;
+            }
+        }
+        .kfc{
+            text-decoration: none;
+            color: black;
+            p{
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+            .imar{
+                display: flex;
+                align-items: center;
+                font-size: 1.10rem;
+                .image2{
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .might3{
+        .chicken{
+            background-image: url(./images/bc\ 3.jpeg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            border-radius: 10px;
+            width: 17vw;
+            @media(max-width:768px){
+                width: 80vw;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 5rem;
+                padding: .50rem;
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.486) ;
+            }
+        }
+        .kfc{
+            text-decoration: none;
+            color: black;
+            p{
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+            .imar{
+                display: flex;
+                align-items: center;
+                font-size: 1.10rem;
+                .image2{
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .might4{
+        .chicken{
+            background-image: url(./images/bc\ 4.jpeg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            border-radius: 10px;
+            width: 17vw;
+            @media(max-width:768px){
+                width: 80vw;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 5rem;
+                padding: .50rem;
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.805) ;
+            }
+        }
+        .kfc{
+            text-decoration: none;
+            color: black;
+            p{
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+            .imar{
+                display: flex;
+                align-items: center;
+                font-size: 1.10rem;
+                .image2{
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .might5{
+        .chicken{
+            background-image: url(./images/bc\ 5.jpeg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            border-radius: 10px;
+            width: 17vw;
+            @media(max-width:768px){
+                width: 80vw;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 5rem;
+                padding: .50rem;
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.772) ;
+            }
+        }
+        .kfc{
+            text-decoration: none;
+            color: black;
+            p{
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+            .imar{
+                display: flex;
+                align-items: center;
+                font-size: 1.10rem;
+                .image2{
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .might6{
+        .chicken{
+            background-image: url(./images/bc\ 6.jpeg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            border-radius: 10px;
+            width: 17vw;
+            @media(max-width:768px){
+                width: 80vw;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 5rem;
+                padding: .50rem;
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.81) ;
+            }
+        }
+        .kfc{
+            text-decoration: none;
+            color: black;
+            p{
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+            .imar{
+                display: flex;
+                align-items: center;
+                font-size: 1.10rem;
+                .image2{
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .might7{
+        .chicken{
+            background-image: url(./images/bc\ 7.jpeg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            border-radius: 10px;
+            width: 17vw;
+            @media(max-width:768px){
+                width: 80vw;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 5rem;
+                padding: .50rem;
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.741) ;
+            }
+        }
+        .kfc{
+            text-decoration: none;
+            color: black;
+            p{
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+            .imar{
+                display: flex;
+                align-items: center;
+                font-size: 1.10rem;
+                .image2{
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .might8{
+        .chicken{
+            background-image: url(./images/bc\ 8\ \(1\).jpeg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            border-radius: 10px;
+            width: 17vw;
+            @media(max-width:768px){
+                width: 80vw;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 5rem;
+                padding: .50rem;
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.782) ;
+            }
+        }
+        .kfc{
+            text-decoration: none;
+            color: black;
+            p{
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+            .imar{
+                display: flex;
+                align-items: center;
+                font-size: 1.10rem;
+                .image2{
+                    width: 20px;
+                }
+            }
+        }
+    }
+    
+    }
+}

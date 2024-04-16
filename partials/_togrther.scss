@@ -1,0 +1,128 @@
+.togrther{
+    position: relative;
+    .custom-shape-divider-bottom-1713251092 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1713251092 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 52px;
+    }
+    
+    .custom-shape-divider-bottom-1713251092 .shape-fill {
+        fill: #1D1D1D;
+    }
+    .custom-shape-divider-top-1713251318 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1713251318 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 52px;
+    }
+    
+    .custom-shape-divider-top-1713251318 .shape-fill {
+        fill: #FFFFFF;
+    }
+   background-color: #E9F8F5;
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+    @media(max-width:768px){
+        margin-top: 2rem;
+    }
+    p{
+        text-align: center;
+    }
+    .big{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: 2rem;
+        letter-spacing: .25rem;
+        @media(max-width:768px){
+            margin-top: 1rem;
+            font-size: 1.50rem;
+            letter-spacing: 0rem;
+        }
+    }
+    .topimy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .men-at-work{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        margin-top: 2rem;
+        @media(max-width:768px){
+            display: flex;
+            flex-direction: column;
+            padding: 1.10rem;
+            gap: 2rem;
+        }
+        .men-pics{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .become{
+                margin-bottom: 1rem;
+                font-size: 1.80rem;
+                font-weight: bold;
+                @media(max-width:768px){
+                    font-size: 1.40rem;
+                    margin-bottom:.30rem ;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                background-color: $secondary-color;
+                display: flex;
+                justify-content: center;
+                margin-top: 2rem;
+                width: 50%;
+                padding: 1rem;
+                font-weight: bold;
+                font-size: 1.20rem;
+                border-radius: 80px;
+                @media(max-width:768px){
+                    font-size: 1rem;
+                }
+            }
+            .here{
+                margin-top: 3.50rem;
+                padding: 1rem;
+                width: 70%;
+                border-radius: 80px;
+                @media(max-width:768px){
+                    margin-top: .30rem;
+                    width: 50%;
+                }
+            }
+            .pic1{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 2rem;
+                @media(max-width:768px){
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}

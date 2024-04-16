@@ -1,0 +1,78 @@
+.main-footer{
+    padding-left: 17rem;
+    padding-top: 3rem;
+    background-color: #1D1D1D;
+    color: white;
+    padding-bottom: 8rem;
+    @media(max-width:768px){
+        padding-left: 3rem;
+    }
+    .kol{
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .footer{
+        display: flex;
+        gap: 10rem;
+        @media(max-width:768px){
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .glovo{
+            display: flex;
+            flex-direction: column;
+            p{
+                font-size: 1.10rem;
+                font-weight: bold;
+            }
+            gap: 1rem;
+            a{
+                text-decoration: none;
+                color: white;
+                letter-spacing: 2px;
+                font-size: smaller;
+                text-align: center;
+            }
+        }
+    }
+    .brands{
+        p{
+            font-size: 1.20rem;
+            font-weight: bold;
+            margin-top: 2rem;
+            @media(max-width:768px){
+                font-size: 1.10rem;
+            }
+        }
+        .four{
+            display: flex;
+            gap: 1rem;
+            @media(max-width:768px){
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                gap: .50rem;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                margin-top: 1rem;
+                font-size: smaller;
+            }
+        }
+        .forty{
+            margin-top: .50rem;
+            @media(max-width:768px){
+                text-align: center;
+            }
+           a{
+            text-decoration: none;
+            color: white;
+            font-size: smaller;
+           }
+        }
+    }
+}
