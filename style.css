@@ -56,8 +56,8 @@ body {
 }
 @media (max-width: 768px) {
   .header .get-started {
-    padding: 0.3rem;
-    font-size: 1rem;
+    padding: 1rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -260,6 +260,8 @@ body {
 @media (max-width: 768px) {
   .all-stores-liked .stores-liked .might .chicken {
     width: 80vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .all-stores-liked .stores-liked .might .chicken a {
@@ -303,6 +305,8 @@ body {
 @media (max-width: 768px) {
   .all-stores-liked .stores-liked .might2 .chicken {
     width: 80vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .all-stores-liked .stores-liked .might2 .chicken a {
@@ -346,6 +350,8 @@ body {
 @media (max-width: 768px) {
   .all-stores-liked .stores-liked .might3 .chicken {
     width: 80vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .all-stores-liked .stores-liked .might3 .chicken a {
@@ -389,6 +395,8 @@ body {
 @media (max-width: 768px) {
   .all-stores-liked .stores-liked .might4 .chicken {
     width: 80vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .all-stores-liked .stores-liked .might4 .chicken a {
@@ -432,6 +440,8 @@ body {
 @media (max-width: 768px) {
   .all-stores-liked .stores-liked .might5 .chicken {
     width: 80vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .all-stores-liked .stores-liked .might5 .chicken a {
@@ -475,6 +485,8 @@ body {
 @media (max-width: 768px) {
   .all-stores-liked .stores-liked .might6 .chicken {
     width: 80vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .all-stores-liked .stores-liked .might6 .chicken a {
@@ -518,6 +530,8 @@ body {
 @media (max-width: 768px) {
   .all-stores-liked .stores-liked .might7 .chicken {
     width: 80vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .all-stores-liked .stores-liked .might7 .chicken a {
@@ -561,6 +575,8 @@ body {
 @media (max-width: 768px) {
   .all-stores-liked .stores-liked .might8 .chicken {
     width: 80vw;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .all-stores-liked .stores-liked .might8 .chicken a {
@@ -797,7 +813,7 @@ body {
 }
 @media (max-width: 768px) {
   .main-footer {
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     padding-bottom: 3rem;
   }
 }
